@@ -22,9 +22,9 @@ services:
     image: bitnami/mariadb:latest 
     environment: 
       - MARIADB_ROOT_PASSWORD=root_password 
-      - MARIADB_DATABASE=bitnami_drupal  
-      - MARIADB_USER=bn_drupal  
-      - MARIADB_PASSWORD=bitnami 
+      - MARIADB_DATABASE=final  
+      - MARIADB_USER=YAM428  
+      - MARIADB_PASSWORD=30719074 
     volumes: 
       - db_data:/bitnami/mariadb
   webserver:
