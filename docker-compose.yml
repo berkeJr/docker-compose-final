@@ -38,7 +38,7 @@ services:
     image: certbot
     volumes: 
       - ./certbot:/etc/letsencrypt
-    command: certonly --webroot --webroot-path=/etc/letsencrypt --email sayin.berke@std.izu.edu.tr --agree-tos --no-eff-email --staging -d sayinberke.me
+    command: certonly --webroot --webroot-path=/etc/letsencrypt --email sayin.berke@std.izu.edu.tr --agree-tos --no-eff-email -d sayinberke.me
 volumes: 
   drupal_data:
   db_data: 
